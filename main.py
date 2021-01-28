@@ -4,10 +4,7 @@ import logging
 from threading import Thread
 import time
 import timeit
-import io
-from io import BytesIO
-from google.cloud import storage
-import cloud
+
 
 
 #Defining first function for keystroke detection
