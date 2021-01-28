@@ -1,3 +1,5 @@
+#Applicable to Google CLoud only!
+
 try:
     import io
     from io import BytesIO
@@ -7,7 +9,7 @@ except Exception as e:
     print("Some Modules are Missing ")
 
 
-
+#Your credentials should be stored in json format
 storage_client = storage.Client.from_service_account_json("just-site-297413-07e07949787a.json")
 
 
